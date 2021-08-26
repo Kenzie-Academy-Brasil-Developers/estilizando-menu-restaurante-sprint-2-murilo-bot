@@ -33,7 +33,7 @@ div section dl dt {
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
 #menu {    
     columns: 400px 2; column-gap: 100px;
-    column-rule: dotted 2px rosybrown ;
+    column-rule: dashed 2px rosybrown ;
 }
 
 section {
@@ -65,5 +65,6 @@ dd {
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {
+    border: dashed 2px rosybrown;
     padding: 10px;
 }
